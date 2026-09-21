@@ -16,9 +16,5 @@
   "bugs": {
     "url": "https://github.com/0rafae1/visualizador-perfil-github/issues"
   },
-  "homepage": "https://github.com/0rafae1/visualizador-perfil-github#readme",
-  "devDependencies": {
-    "prettier": "^3.9.8",
-    "prettier-plugin-embed": "^0.5.1"
-  }
+  "homepage": "https://github.com/0rafae1/visualizador-perfil-github#readme"
 }
