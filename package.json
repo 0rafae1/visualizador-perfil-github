@@ -1,0 +1,24 @@
+{
+  "name": "visualizador-perfil-github",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0rafae1/visualizador-perfil-github.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0rafae1/visualizador-perfil-github/issues"
+  },
+  "homepage": "https://github.com/0rafae1/visualizador-perfil-github#readme",
+  "devDependencies": {
+    "prettier": "^3.9.8",
+    "prettier-plugin-embed": "^0.5.1"
+  }
+}
