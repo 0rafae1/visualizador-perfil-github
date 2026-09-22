@@ -1,4 +1,4 @@
-import { fetchGithubUser, fetchGithubUserRepos } from './githubApi.js';
+import { fetchGithubUser, fetchGithubUserRepos } from './github-api.js';
 import { renderProfile } from './profileView.js';
 
 const inputSearch = document.getElementById('input-search');
@@ -6,7 +6,7 @@ const btnSearch = document.getElementById('btn-search');
 const profileResults = document.querySelector('.profile-results');
 
 async function getUserProfile() {
-    const userName = inputSearch.value;
+    const userName = inputSearch.value.trim();
     if (!userName) {
         alert('Por favor, digite um nome de usuário do GitHub.');
         profileResults.innerHTML = "";
